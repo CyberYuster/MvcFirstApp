@@ -1,0 +1,711 @@
+2025-12-23T09:05:48.1523307+03:00  [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-23T09:05:48.3569887+03:00  [INF] Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-23T09:05:48.4429648+03:00  [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-23T09:05:48.4594990+03:00  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-23T09:05:49.4346757+03:00  [INF] Executed DbCommand ("774"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2025-12-23T09:05:50.0437335+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-12-23T09:05:50.5763998+03:00  [INF] User profile is available. Using '"C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2025-12-23T09:05:51.6757397+03:00  [INF] Now listening on: "http://localhost:5070" (d826f4b8)
+2025-12-23T09:05:52.0896655+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-23T09:05:52.0966997+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-23T09:05:52.1054727+03:00  [INF] Content root path: "C:\DotnetProjects\MvcDatabaseApp" (cc26f24e)
+2025-12-23T09:05:55.1713218+03:00 0HNI1T59QM92U:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - null null (d509f86a)
+2025-12-23T09:05:56.3432473+03:00 0HNI1T59QM92U:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2025-12-23T09:05:56.4951709+03:00 0HNI1T59QM92U:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:05:56.5540164+03:00 0HNI1T59QM92U:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MvcDatabaseApp.Controllers.HomeController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:05:56.6034226+03:00 0HNI1T59QM92U:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:05:56.9780509+03:00 0HNI1T59QM92U:00000001 [INF] Executed ViewResult - view "Index" executed in 388.8589ms. (f66409e9)
+2025-12-23T09:05:56.9806119+03:00 0HNI1T59QM92U:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)" in 424.628ms (afa2e885)
+2025-12-23T09:05:56.9811995+03:00 0HNI1T59QM92U:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:05:56.9911176+03:00 0HNI1T59QM92U:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - 200 null "text/html; charset=utf-8" 1842.1305ms (74253ad3)
+2025-12-23T09:05:57.2162161+03:00 0HNI1T59QM92V:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:05:57.2327856+03:00 0HNI1T59QM92U:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/css/productTemplate.css""?v=1dgiUAMJfpU4wOH9GcO6-sSfQgE5g183vv98pZKFDFs" - null null (d509f86a)
+2025-12-23T09:05:57.2523579+03:00 0HNI1T59QM930:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:05:57.2651469+03:00 0HNI1T59QM930:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 12.6688ms (74253ad3)
+2025-12-23T09:05:57.2659268+03:00 0HNI1T59QM931:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:05:57.2963580+03:00 0HNI1T59QM92U:00000002 [INF] The file "/css/productTemplate.css" was not modified (f1f8d725)
+2025-12-23T09:05:57.2995312+03:00 0HNI1T59QM92U:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/css/productTemplate.css""?v=1dgiUAMJfpU4wOH9GcO6-sSfQgE5g183vv98pZKFDFs" - 304 null "text/css" 66.8209ms (74253ad3)
+2025-12-23T09:05:57.3549055+03:00 0HNI1T59QM92V:00000001 [INF] Sending file. Request path: '"/MvcDatabaseApp.styles.css"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\obj\Debug\net8.0\scopedcss\bundle\MvcDatabaseApp.styles.css"' (27b0a520)
+2025-12-23T09:05:57.3551022+03:00 0HNI1T59QM92V:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 200 1132 "text/css" 140.4829ms (74253ad3)
+2025-12-23T09:05:57.4709212+03:00 0HNI1T59QM931:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 198.9301ms (74253ad3)
+2025-12-23T09:06:09.2678289+03:00 0HNI1T59QM932:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:06:09.3198850+03:00 0HNI1T59QM932:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:06:09.3904880+03:00 0HNI1T59QM932:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:06:11.4671254+03:00 0HNI1T59QM932:00000001 [INF] Executed DbCommand ("228"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:06:11.9835759+03:00 0HNI1T59QM932:00000001 [INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:06:12.0956703+03:00 0HNI1T59QM932:00000001 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:06:12.1879464+03:00 0HNI1T59QM932:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:06:12.3838982+03:00 0HNI1T59QM932:00000001 [INF] Executed ViewResult - view "Index" executed in 199.4878ms. (f66409e9)
+2025-12-23T09:06:12.3890111+03:00 0HNI1T59QM932:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 2998.3939ms (afa2e885)
+2025-12-23T09:06:12.3901372+03:00 0HNI1T59QM932:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:06:12.4309689+03:00 0HNI1T59QM932:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 3163.1944ms (74253ad3)
+2025-12-23T09:06:12.4639882+03:00 0HNI1T59QM932:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:06:12.4669679+03:00 0HNI1T59QM932:00000002 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:06:12.4673461+03:00 0HNI1T59QM932:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 3.4028ms (74253ad3)
+2025-12-23T09:06:12.5004647+03:00 0HNI1T59QM934:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:06:12.5067763+03:00 0HNI1T59QM935:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:06:12.5071248+03:00 0HNI1T59QM935:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.4053ms (74253ad3)
+2025-12-23T09:06:12.7099838+03:00 0HNI1T59QM934:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 209.4502ms (74253ad3)
+2025-12-23T09:08:14.4821512+03:00 0HNI1T59QM936:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - null null (d509f86a)
+2025-12-23T09:08:14.5477774+03:00 0HNI1T59QM936:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:08:14.5613368+03:00 0HNI1T59QM936:00000001 [INF] Route matched with "{action = \"Statistics\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Statistics()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:08:14.7302641+03:00 0HNI1T59QM936:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:08:14.7553137+03:00 0HNI1T59QM936:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:08:14.7895333+03:00 0HNI1T59QM936:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:08:14.8143649+03:00 0HNI1T59QM936:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:08:14.8326814+03:00 0HNI1T59QM936:00000001 [INF] Executing ViewResult, running view "Statistics". (c83d0e25)
+2025-12-23T09:08:14.9357423+03:00 0HNI1T59QM936:00000001 [INF] Executed ViewResult - view "Statistics" executed in 104.9613ms. (f66409e9)
+2025-12-23T09:08:14.9359143+03:00 0HNI1T59QM936:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)" in 374.4498ms (afa2e885)
+2025-12-23T09:08:14.9359708+03:00 0HNI1T59QM936:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:08:14.9366489+03:00 0HNI1T59QM936:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - 200 null "text/html; charset=utf-8" 454.7463ms (74253ad3)
+2025-12-23T09:08:15.0075743+03:00 0HNI1T59QM936:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:08:15.0098448+03:00 0HNI1T59QM936:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 2.269ms (74253ad3)
+2025-12-23T09:08:15.0216554+03:00 0HNI1T59QM936:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:08:15.0222305+03:00 0HNI1T59QM936:00000003 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:08:15.0223927+03:00 0HNI1T59QM936:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 0.8247ms (74253ad3)
+2025-12-23T09:08:15.0343501+03:00 0HNI1T59QM936:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:08:15.2118364+03:00 0HNI1T59QM936:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 177.5228ms (74253ad3)
+2025-12-23T09:09:03.1909621+03:00 0HNI1T59QM938:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:09:03.1950536+03:00 0HNI1T59QM938:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:09:03.1953953+03:00 0HNI1T59QM938:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:09:03.2296488+03:00 0HNI1T59QM938:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:09:03.2408703+03:00 0HNI1T59QM938:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:09:03.2494670+03:00 0HNI1T59QM938:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:09:03.2501543+03:00 0HNI1T59QM938:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:09:03.2581227+03:00 0HNI1T59QM938:00000001 [INF] Executed ViewResult - view "Index" executed in 8.0138ms. (f66409e9)
+2025-12-23T09:09:03.2582575+03:00 0HNI1T59QM938:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 62.8134ms (afa2e885)
+2025-12-23T09:09:03.2583410+03:00 0HNI1T59QM938:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:09:03.2587609+03:00 0HNI1T59QM938:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 67.9109ms (74253ad3)
+2025-12-23T09:09:03.3022342+03:00 0HNI1T59QM939:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:09:03.3022343+03:00 0HNI1T59QM938:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:09:03.3055450+03:00 0HNI1T59QM93A:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:09:03.3057599+03:00 0HNI1T59QM93A:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2551ms (74253ad3)
+2025-12-23T09:09:03.3074566+03:00 0HNI1T59QM938:00000002 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:09:03.3076605+03:00 0HNI1T59QM938:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 5.4576ms (74253ad3)
+2025-12-23T09:09:03.4362865+03:00 0HNI1T59QM939:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 131.9302ms (74253ad3)
+2025-12-23T09:09:08.0962553+03:00 0HNI1T59QM939:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - null null (d509f86a)
+2025-12-23T09:09:08.1176777+03:00 0HNI1T59QM939:00000002 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:09:08.1178178+03:00 0HNI1T59QM939:00000002 [INF] Route matched with "{action = \"Statistics\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Statistics()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:09:08.1677273+03:00 0HNI1T59QM939:00000002 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:09:08.1995368+03:00 0HNI1T59QM939:00000002 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:09:08.2267967+03:00 0HNI1T59QM939:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:09:08.2389384+03:00 0HNI1T59QM939:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:09:08.2400319+03:00 0HNI1T59QM939:00000002 [INF] Executing ViewResult, running view "Statistics". (c83d0e25)
+2025-12-23T09:09:08.2432313+03:00 0HNI1T59QM939:00000002 [INF] Executed ViewResult - view "Statistics" executed in 3.2226ms. (f66409e9)
+2025-12-23T09:09:08.2436456+03:00 0HNI1T59QM939:00000002 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)" in 124.4552ms (afa2e885)
+2025-12-23T09:09:08.2436960+03:00 0HNI1T59QM939:00000002 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:09:08.2440415+03:00 0HNI1T59QM939:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - 200 null "text/html; charset=utf-8" 148.4461ms (74253ad3)
+2025-12-23T09:09:08.2923525+03:00 0HNI1T59QM938:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:09:08.2925224+03:00 0HNI1T59QM938:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2906ms (74253ad3)
+2025-12-23T09:09:08.2951757+03:00 0HNI1T59QM939:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:09:08.3175754+03:00 0HNI1T59QM939:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 25.8825ms (74253ad3)
+2025-12-23T09:09:21.2121680+03:00 0HNI1T59QM939:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - null null (d509f86a)
+2025-12-23T09:09:21.2275762+03:00 0HNI1T59QM939:00000004 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:09:21.2277068+03:00 0HNI1T59QM939:00000004 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MvcDatabaseApp.Controllers.HomeController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:09:21.2282372+03:00 0HNI1T59QM939:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:09:21.2362531+03:00 0HNI1T59QM939:00000004 [INF] Executed ViewResult - view "Index" executed in 8.0939ms. (f66409e9)
+2025-12-23T09:09:21.2364249+03:00 0HNI1T59QM939:00000004 [INF] Executed action "MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)" in 8.5758ms (afa2e885)
+2025-12-23T09:09:21.2364615+03:00 0HNI1T59QM939:00000004 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:09:21.2366180+03:00 0HNI1T59QM939:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - 200 null "text/html; charset=utf-8" 24.5626ms (74253ad3)
+2025-12-23T09:09:21.2949208+03:00 0HNI1T59QM938:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:09:21.2949206+03:00 0HNI1T59QM939:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:09:21.2950856+03:00 0HNI1T59QM939:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2151ms (74253ad3)
+2025-12-23T09:09:21.6616488+03:00 0HNI1T59QM938:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 366.7534ms (74253ad3)
+2025-12-23T09:10:42.1076740+03:00  [INF] Executed DbCommand ("59"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-23T09:10:42.2638577+03:00  [INF] Executed DbCommand ("104"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-23T09:10:42.2737928+03:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-23T09:10:42.3037784+03:00  [INF] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-23T09:10:42.3710041+03:00  [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2025-12-23T09:10:42.4169816+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-12-23T09:10:42.5048262+03:00  [INF] User profile is available. Using '"C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2025-12-23T09:10:42.9788638+03:00  [INF] Now listening on: "http://localhost:5070" (d826f4b8)
+2025-12-23T09:10:43.5144603+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-23T09:10:43.5193386+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-23T09:10:43.5241815+03:00  [INF] Content root path: "C:\DotnetProjects\MvcDatabaseApp" (cc26f24e)
+2025-12-23T09:10:45.6132665+03:00 0HNI1T80KD6HD:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - null null (d509f86a)
+2025-12-23T09:10:46.8879159+03:00 0HNI1T80KD6HD:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2025-12-23T09:10:47.0802526+03:00 0HNI1T80KD6HD:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:10:47.1584010+03:00 0HNI1T80KD6HD:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MvcDatabaseApp.Controllers.HomeController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:10:47.2128627+03:00 0HNI1T80KD6HD:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:10:47.5132256+03:00 0HNI1T80KD6HD:00000001 [INF] Executed ViewResult - view "Index" executed in 314.9419ms. (f66409e9)
+2025-12-23T09:10:47.5159815+03:00 0HNI1T80KD6HD:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)" in 355.3966ms (afa2e885)
+2025-12-23T09:10:47.5167740+03:00 0HNI1T80KD6HD:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:10:47.5631004+03:00 0HNI1T80KD6HD:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - 200 null "text/html; charset=utf-8" 1973.7341ms (74253ad3)
+2025-12-23T09:10:47.6774114+03:00 0HNI1T80KD6HC:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:10:47.6774260+03:00 0HNI1T80KD6HD:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:10:47.6995701+03:00 0HNI1T80KD6HE:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:10:47.7157949+03:00 0HNI1T80KD6HC:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 38.8934ms (74253ad3)
+2025-12-23T09:10:47.7252288+03:00 0HNI1T80KD6HD:00000002 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:10:47.7477844+03:00 0HNI1T80KD6HD:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 70.7944ms (74253ad3)
+2025-12-23T09:10:48.2169785+03:00 0HNI1T80KD6HE:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 517.0494ms (74253ad3)
+2025-12-23T09:10:58.8134374+03:00 0HNI1T80KD6HF:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:10:58.8559086+03:00 0HNI1T80KD6HF:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:10:58.9302597+03:00 0HNI1T80KD6HF:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:11:01.3302758+03:00 0HNI1T80KD6HF:00000001 [INF] Executed DbCommand ("105"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:11:02.1004068+03:00 0HNI1T80KD6HF:00000001 [INF] Executed DbCommand ("148"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:11:02.1952930+03:00 0HNI1T80KD6HF:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:11:02.2653170+03:00 0HNI1T80KD6HF:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:11:02.4557518+03:00 0HNI1T80KD6HF:00000001 [INF] Executed ViewResult - view "Index" executed in 194.9121ms. (f66409e9)
+2025-12-23T09:11:02.4594590+03:00 0HNI1T80KD6HF:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 3529.0876ms (afa2e885)
+2025-12-23T09:11:02.4602568+03:00 0HNI1T80KD6HF:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:11:02.5371503+03:00 0HNI1T80KD6HF:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 3723.8255ms (74253ad3)
+2025-12-23T09:11:02.5811254+03:00 0HNI1T80KD6HF:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:11:02.5832758+03:00 0HNI1T80KD6HF:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 1.6727ms (74253ad3)
+2025-12-23T09:11:02.6097011+03:00 0HNI1T80KD6HF:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:11:02.9053201+03:00 0HNI1T80KD6HF:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 295.6627ms (74253ad3)
+2025-12-23T09:11:07.8401225+03:00 0HNI1T80KD6HF:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - null null (d509f86a)
+2025-12-23T09:11:07.8546618+03:00 0HNI1T80KD6HF:00000004 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:11:07.8643183+03:00 0HNI1T80KD6HF:00000004 [INF] Route matched with "{action = \"Statistics\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Statistics()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:11:08.1201663+03:00 0HNI1T80KD6HF:00000004 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:11:08.1393044+03:00 0HNI1T80KD6HF:00000004 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:11:08.1724497+03:00 0HNI1T80KD6HF:00000004 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:11:08.1930968+03:00 0HNI1T80KD6HF:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:11:08.2035696+03:00 0HNI1T80KD6HF:00000004 [INF] Executing ViewResult, running view "Statistics". (c83d0e25)
+2025-12-23T09:11:08.4056858+03:00 0HNI1T80KD6HF:00000004 [INF] Executed ViewResult - view "Statistics" executed in 203.431ms. (f66409e9)
+2025-12-23T09:11:08.4058088+03:00 0HNI1T80KD6HF:00000004 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)" in 541.0895ms (afa2e885)
+2025-12-23T09:11:08.4058693+03:00 0HNI1T80KD6HF:00000004 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:11:08.4067323+03:00 0HNI1T80KD6HF:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - 200 null "text/html; charset=utf-8" 567.4323ms (74253ad3)
+2025-12-23T09:11:08.4884774+03:00 0HNI1T80KD6HF:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:11:08.4886797+03:00 0HNI1T80KD6HF:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2797ms (74253ad3)
+2025-12-23T09:11:08.4888480+03:00 0HNI1T80KD6HH:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:11:08.5786247+03:00 0HNI1T80KD6HH:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 86.9949ms (74253ad3)
+2025-12-23T09:11:15.7403999+03:00 0HNI1T80KD6HI:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - null null (d509f86a)
+2025-12-23T09:11:15.7438090+03:00 0HNI1T80KD6HI:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:11:15.7441266+03:00 0HNI1T80KD6HI:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MvcDatabaseApp.Controllers.HomeController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:11:15.7445588+03:00 0HNI1T80KD6HI:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:11:15.7530513+03:00 0HNI1T80KD6HI:00000001 [INF] Executed ViewResult - view "Index" executed in 8.5452ms. (f66409e9)
+2025-12-23T09:11:15.7532072+03:00 0HNI1T80KD6HI:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)" in 9.0269ms (afa2e885)
+2025-12-23T09:11:15.7532411+03:00 0HNI1T80KD6HI:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:11:15.7535149+03:00 0HNI1T80KD6HI:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - 200 null "text/html; charset=utf-8" 13.0939ms (74253ad3)
+2025-12-23T09:11:15.8094699+03:00 0HNI1T80KD6HI:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:11:15.8098224+03:00 0HNI1T80KD6HI:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.4134ms (74253ad3)
+2025-12-23T09:11:15.8197886+03:00 0HNI1T80KD6HI:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:11:15.8347657+03:00 0HNI1T80KD6HI:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 14.9613ms (74253ad3)
+2025-12-23T09:11:23.4019090+03:00 0HNI1T80KD6HK:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:11:23.4108518+03:00 0HNI1T80KD6HK:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:11:23.4109987+03:00 0HNI1T80KD6HK:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:11:23.4521835+03:00 0HNI1T80KD6HK:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:11:23.4653443+03:00 0HNI1T80KD6HK:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:11:23.4737981+03:00 0HNI1T80KD6HK:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:11:23.4751972+03:00 0HNI1T80KD6HK:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:11:23.4839154+03:00 0HNI1T80KD6HK:00000001 [INF] Executed ViewResult - view "Index" executed in 8.7721ms. (f66409e9)
+2025-12-23T09:11:23.4840724+03:00 0HNI1T80KD6HK:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 73.0314ms (afa2e885)
+2025-12-23T09:11:23.4841263+03:00 0HNI1T80KD6HK:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:11:23.4844187+03:00 0HNI1T80KD6HK:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 82.5895ms (74253ad3)
+2025-12-23T09:11:23.5392528+03:00 0HNI1T80KD6HK:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:11:23.5400192+03:00 0HNI1T80KD6HL:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:11:23.5402047+03:00 0HNI1T80KD6HL:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2564ms (74253ad3)
+2025-12-23T09:11:23.5989637+03:00 0HNI1T80KD6HK:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 59.7488ms (74253ad3)
+2025-12-23T09:11:36.0998267+03:00 0HNI1T80KD6HM:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Create""" - null null (d509f86a)
+2025-12-23T09:11:36.2178766+03:00 0HNI1T80KD6HM:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:11:36.2499339+03:00 0HNI1T80KD6HM:00000001 [INF] Route matched with "{action = \"Create\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:11:36.3647497+03:00 0HNI1T80KD6HM:00000001 [INF] Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:11:36.3813327+03:00 0HNI1T80KD6HM:00000001 [INF] Executing ViewResult, running view "Create". (c83d0e25)
+2025-12-23T09:11:36.7042699+03:00 0HNI1T80KD6HM:00000001 [INF] Executed ViewResult - view "Create" executed in 324.1207ms. (f66409e9)
+2025-12-23T09:11:36.7055446+03:00 0HNI1T80KD6HM:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)" in 455.4636ms (afa2e885)
+2025-12-23T09:11:36.7056098+03:00 0HNI1T80KD6HM:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:11:36.7060349+03:00 0HNI1T80KD6HM:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Create""" - 200 null "text/html; charset=utf-8" 606.2861ms (74253ad3)
+2025-12-23T09:11:36.7531988+03:00 0HNI1T80KD6HM:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:11:36.7555987+03:00 0HNI1T80KD6HN:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:11:36.7556975+03:00 0HNI1T80KD6HM:00000002 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:11:36.7557298+03:00 0HNI1T80KD6HN:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2024ms (74253ad3)
+2025-12-23T09:11:36.7558439+03:00 0HNI1T80KD6HM:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 2.7102ms (74253ad3)
+2025-12-23T09:11:36.7606899+03:00 0HNI1T80KD6HM:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:11:36.8993866+03:00 0HNI1T80KD6HM:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 138.6936ms (74253ad3)
+2025-12-23T09:14:13.6771785+03:00 0HNI1T80KD6HP:00000001 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5070""""/Create""" - "application/x-www-form-urlencoded" 297 (d509f86a)
+2025-12-23T09:14:13.7880277+03:00 0HNI1T80KD6HP:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:14:13.8077498+03:00 0HNI1T80KD6HP:00000001 [INF] Route matched with "{action = \"Create\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MvcDatabaseApp.Models.ViewModels.ProductViewModel)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:14:14.4666712+03:00 0HNI1T80KD6HP:00000001 [INF] Executed DbCommand ("372"ms) [Parameters=["@__ToLower_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p]
+        WHERE LOWER([p].[Name]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END" (0723d8ff)
+2025-12-23T09:14:14.9141788+03:00 0HNI1T80KD6HP:00000001 [INF] Executed DbCommand ("51"ms) [Parameters=["@p0='?' (Size = 50), @p1='?' (DbType = DateTime2), @p2='?' (Size = 500), @p3='?' (DbType = DateTime2), @p4='?' (Size = 100), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Category], [CreateDate], [Description], [LastModified], [Name], [Price], [isActive])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);" (0723d8ff)
+2025-12-23T09:14:15.0114735+03:00 0HNI1T80KD6HP:00000001 [INF] Executing RedirectResult, redirecting to "/Products/Search". (d98d540e)
+2025-12-23T09:14:15.0259937+03:00 0HNI1T80KD6HP:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)" in 1218.1399ms (afa2e885)
+2025-12-23T09:14:15.0260809+03:00 0HNI1T80KD6HP:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:14:15.0266032+03:00 0HNI1T80KD6HP:00000001 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5070""""/Create""" - 302 0 null 1349.7689ms (74253ad3)
+2025-12-23T09:14:15.0436470+03:00 0HNI1T80KD6HP:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:14:15.0462764+03:00 0HNI1T80KD6HP:00000002 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:14:15.0464195+03:00 0HNI1T80KD6HP:00000002 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:14:15.0580745+03:00 0HNI1T80KD6HP:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:14:15.0672895+03:00 0HNI1T80KD6HP:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:14:15.0747292+03:00 0HNI1T80KD6HP:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:14:15.0753730+03:00 0HNI1T80KD6HP:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:14:15.0840374+03:00 0HNI1T80KD6HP:00000002 [INF] Executed ViewResult - view "Index" executed in 8.7262ms. (f66409e9)
+2025-12-23T09:14:15.0841941+03:00 0HNI1T80KD6HP:00000002 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 37.7417ms (afa2e885)
+2025-12-23T09:14:15.0842409+03:00 0HNI1T80KD6HP:00000002 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:14:15.0851046+03:00 0HNI1T80KD6HP:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 41.5261ms (74253ad3)
+2025-12-23T09:14:15.1413894+03:00 0HNI1T80KD6HP:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:14:15.1421250+03:00 0HNI1T80KD6HP:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 1.0644ms (74253ad3)
+2025-12-23T09:14:15.1438935+03:00 0HNI1T80KD6HQ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:14:15.1439782+03:00 0HNI1T80KD6HO:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:14:15.1447155+03:00 0HNI1T80KD6HO:00000001 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:14:15.1448869+03:00 0HNI1T80KD6HO:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 0.9019ms (74253ad3)
+2025-12-23T09:14:15.1701122+03:00 0HNI1T80KD6HQ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 26.2529ms (74253ad3)
+2025-12-23T09:14:52.9695087+03:00 0HNI1T80KD6HQ:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""?searchTerm=nguo" - null null (d509f86a)
+2025-12-23T09:14:52.9730578+03:00 0HNI1T80KD6HQ:00000002 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:14:52.9732359+03:00 0HNI1T80KD6HQ:00000002 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:14:53.0499866+03:00 0HNI1T80KD6HQ:00000002 [INF] Executed DbCommand ("13"ms) [Parameters=["@__searchTerm_0_rewritten='?' (Size = 100), @__searchTerm_0_rewritten_1='?' (Size = 500), @__searchTerm_0_rewritten_2='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit) AND (LOWER([p].[Name]) LIKE @__searchTerm_0_rewritten ESCAPE N'\' OR LOWER([p].[Description]) LIKE @__searchTerm_0_rewritten_1 ESCAPE N'\' OR LOWER([p].[Category]) LIKE @__searchTerm_0_rewritten_2 ESCAPE N'\')
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:14:53.0610483+03:00 0HNI1T80KD6HQ:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:14:53.0712325+03:00 0HNI1T80KD6HQ:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:14:53.0721006+03:00 0HNI1T80KD6HQ:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:14:53.0748754+03:00 0HNI1T80KD6HQ:00000002 [INF] Executed ViewResult - view "Index" executed in 2.8153ms. (f66409e9)
+2025-12-23T09:14:53.0751280+03:00 0HNI1T80KD6HQ:00000002 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 101.8434ms (afa2e885)
+2025-12-23T09:14:53.0752202+03:00 0HNI1T80KD6HQ:00000002 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:14:53.0755277+03:00 0HNI1T80KD6HQ:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""?searchTerm=nguo" - 200 null "text/html; charset=utf-8" 106.2815ms (74253ad3)
+2025-12-23T09:14:53.1571066+03:00 0HNI1T80KD6HO:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:14:53.1571067+03:00 0HNI1T80KD6HQ:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:14:53.1572663+03:00 0HNI1T80KD6HQ:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2033ms (74253ad3)
+2025-12-23T09:14:53.1961950+03:00 0HNI1T80KD6HO:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 39.1092ms (74253ad3)
+2025-12-23T09:15:02.7624501+03:00 0HNI1T80KD6HO:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:15:02.7660289+03:00 0HNI1T80KD6HO:00000003 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:15:02.7662007+03:00 0HNI1T80KD6HO:00000003 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:15:02.7908655+03:00 0HNI1T80KD6HO:00000003 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:15:02.7989943+03:00 0HNI1T80KD6HO:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:15:02.8080010+03:00 0HNI1T80KD6HO:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:15:02.8085596+03:00 0HNI1T80KD6HO:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:15:02.8105767+03:00 0HNI1T80KD6HO:00000003 [INF] Executed ViewResult - view "Index" executed in 2.062ms. (f66409e9)
+2025-12-23T09:15:02.8110453+03:00 0HNI1T80KD6HO:00000003 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 44.8037ms (afa2e885)
+2025-12-23T09:15:02.8111039+03:00 0HNI1T80KD6HO:00000003 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:15:02.8114310+03:00 0HNI1T80KD6HO:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 49.3113ms (74253ad3)
+2025-12-23T09:15:02.8538980+03:00 0HNI1T80KD6HO:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:15:02.8541138+03:00 0HNI1T80KD6HQ:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:15:02.8543055+03:00 0HNI1T80KD6HQ:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.2226ms (74253ad3)
+2025-12-23T09:15:02.8945408+03:00 0HNI1T80KD6HO:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 40.7105ms (74253ad3)
+2025-12-23T09:15:17.7685971+03:00 0HNI1T80KD6HO:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""?searchTerm=gauni" - null null (d509f86a)
+2025-12-23T09:15:17.7717678+03:00 0HNI1T80KD6HO:00000005 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:15:17.7719167+03:00 0HNI1T80KD6HO:00000005 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:15:17.7888483+03:00 0HNI1T80KD6HO:00000005 [INF] Executed DbCommand ("4"ms) [Parameters=["@__searchTerm_0_rewritten='?' (Size = 100), @__searchTerm_0_rewritten_1='?' (Size = 500), @__searchTerm_0_rewritten_2='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit) AND (LOWER([p].[Name]) LIKE @__searchTerm_0_rewritten ESCAPE N'\' OR LOWER([p].[Description]) LIKE @__searchTerm_0_rewritten_1 ESCAPE N'\' OR LOWER([p].[Category]) LIKE @__searchTerm_0_rewritten_2 ESCAPE N'\')
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:15:17.8010189+03:00 0HNI1T80KD6HO:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:15:17.8083691+03:00 0HNI1T80KD6HO:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:15:17.8096124+03:00 0HNI1T80KD6HO:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:15:17.8122209+03:00 0HNI1T80KD6HO:00000005 [INF] Executed ViewResult - view "Index" executed in 2.7504ms. (f66409e9)
+2025-12-23T09:15:17.8123827+03:00 0HNI1T80KD6HO:00000005 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 40.4282ms (afa2e885)
+2025-12-23T09:15:17.8124547+03:00 0HNI1T80KD6HO:00000005 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:15:17.8130466+03:00 0HNI1T80KD6HO:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""?searchTerm=gauni" - 200 null "text/html; charset=utf-8" 44.3581ms (74253ad3)
+2025-12-23T09:15:17.8489449+03:00 0HNI1T80KD6HO:00000006 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:15:17.8518968+03:00 0HNI1T80KD6HO:00000006 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:15:17.8521263+03:00 0HNI1T80KD6HO:00000006 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 3.185ms (74253ad3)
+2025-12-23T09:15:17.8563504+03:00 0HNI1T80KD6HQ:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:15:17.8623693+03:00 0HNI1T80KD6HO:00000007 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:15:17.8626738+03:00 0HNI1T80KD6HO:00000007 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.3564ms (74253ad3)
+2025-12-23T09:15:17.8763518+03:00 0HNI1T80KD6HQ:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 20.0343ms (74253ad3)
+2025-12-23T09:15:28.3073354+03:00 0HNI1T80KD6HQ:00000006 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:15:28.3102787+03:00 0HNI1T80KD6HQ:00000006 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:15:28.3104121+03:00 0HNI1T80KD6HQ:00000006 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:15:28.3349845+03:00 0HNI1T80KD6HQ:00000006 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:15:28.3430556+03:00 0HNI1T80KD6HQ:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:15:28.3502624+03:00 0HNI1T80KD6HQ:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:15:28.3509789+03:00 0HNI1T80KD6HQ:00000006 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:15:28.3550305+03:00 0HNI1T80KD6HQ:00000006 [INF] Executed ViewResult - view "Index" executed in 4.0545ms. (f66409e9)
+2025-12-23T09:15:28.3551937+03:00 0HNI1T80KD6HQ:00000006 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 44.7505ms (afa2e885)
+2025-12-23T09:15:28.3552313+03:00 0HNI1T80KD6HQ:00000006 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:15:28.3554655+03:00 0HNI1T80KD6HQ:00000006 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 48.1861ms (74253ad3)
+2025-12-23T09:15:28.4232962+03:00 0HNI1T80KD6HQ:00000007 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:15:28.4241621+03:00 0HNI1T80KD6HQ:00000007 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 1.4695ms (74253ad3)
+2025-12-23T09:15:28.4244142+03:00 0HNI1T80KD6HO:00000008 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:15:28.4603594+03:00 0HNI1T80KD6HO:00000008 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.058ms (74253ad3)
+2025-12-23T09:15:33.4866687+03:00 0HNI1T80KD6HO:00000009 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - null null (d509f86a)
+2025-12-23T09:15:33.4959062+03:00 0HNI1T80KD6HO:00000009 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:15:33.4961848+03:00 0HNI1T80KD6HO:00000009 [INF] Route matched with "{action = \"Statistics\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Statistics()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:15:33.5136605+03:00 0HNI1T80KD6HO:00000009 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:15:33.5301369+03:00 0HNI1T80KD6HO:00000009 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:15:33.5445855+03:00 0HNI1T80KD6HO:00000009 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:15:33.5537578+03:00 0HNI1T80KD6HO:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:15:33.5543015+03:00 0HNI1T80KD6HO:00000009 [INF] Executing ViewResult, running view "Statistics". (c83d0e25)
+2025-12-23T09:15:33.5584612+03:00 0HNI1T80KD6HO:00000009 [INF] Executed ViewResult - view "Statistics" executed in 4.1665ms. (f66409e9)
+2025-12-23T09:15:33.5587291+03:00 0HNI1T80KD6HO:00000009 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)" in 62.4971ms (afa2e885)
+2025-12-23T09:15:33.5588115+03:00 0HNI1T80KD6HO:00000009 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:15:33.5591158+03:00 0HNI1T80KD6HO:00000009 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - 200 null "text/html; charset=utf-8" 72.4921ms (74253ad3)
+2025-12-23T09:15:33.5954496+03:00 0HNI1T80KD6HO:0000000A [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:15:33.6086332+03:00 0HNI1T80KD6HQ:00000008 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:15:33.6087956+03:00 0HNI1T80KD6HQ:00000008 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.1963ms (74253ad3)
+2025-12-23T09:15:33.6134203+03:00 0HNI1T80KD6HO:0000000A [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 17.9894ms (74253ad3)
+2025-12-23T09:15:59.6641272+03:00 0HNI1T80KD6HO:0000000B [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Create""" - null null (d509f86a)
+2025-12-23T09:15:59.6710819+03:00 0HNI1T80KD6HO:0000000B [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:15:59.6714518+03:00 0HNI1T80KD6HO:0000000B [INF] Route matched with "{action = \"Create\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:15:59.7314526+03:00 0HNI1T80KD6HO:0000000B [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:15:59.7328049+03:00 0HNI1T80KD6HO:0000000B [INF] Executing ViewResult, running view "Create". (c83d0e25)
+2025-12-23T09:15:59.7434205+03:00 0HNI1T80KD6HO:0000000B [INF] Executed ViewResult - view "Create" executed in 10.5885ms. (f66409e9)
+2025-12-23T09:15:59.7436581+03:00 0HNI1T80KD6HO:0000000B [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)" in 72.0204ms (afa2e885)
+2025-12-23T09:15:59.7442663+03:00 0HNI1T80KD6HO:0000000B [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:15:59.7447319+03:00 0HNI1T80KD6HO:0000000B [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Create""" - 200 null "text/html; charset=utf-8" 80.6371ms (74253ad3)
+2025-12-23T09:15:59.8309548+03:00 0HNI1T80KD6HO:0000000C [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:15:59.8311446+03:00 0HNI1T80KD6HO:0000000C [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.238ms (74253ad3)
+2025-12-23T09:15:59.8312544+03:00 0HNI1T80KD6HQ:00000009 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:15:59.9487784+03:00 0HNI1T80KD6HQ:00000009 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 117.538ms (74253ad3)
+2025-12-23T09:16:02.5656809+03:00 0HNI1T80KD6HQ:0000000A [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:16:02.5702866+03:00 0HNI1T80KD6HQ:0000000A [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:16:02.5704212+03:00 0HNI1T80KD6HQ:0000000A [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:16:02.5944989+03:00 0HNI1T80KD6HQ:0000000A [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:16:02.6057079+03:00 0HNI1T80KD6HQ:0000000A [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:16:02.6132639+03:00 0HNI1T80KD6HQ:0000000A [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:16:02.6138334+03:00 0HNI1T80KD6HQ:0000000A [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:16:02.6152493+03:00 0HNI1T80KD6HQ:0000000A [INF] Executed ViewResult - view "Index" executed in 1.445ms. (f66409e9)
+2025-12-23T09:16:02.6153293+03:00 0HNI1T80KD6HQ:0000000A [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 44.882ms (afa2e885)
+2025-12-23T09:16:02.6153677+03:00 0HNI1T80KD6HQ:0000000A [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:16:02.6158251+03:00 0HNI1T80KD6HQ:0000000A [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 50.165ms (74253ad3)
+2025-12-23T09:16:02.6623853+03:00 0HNI1T80KD6HQ:0000000B [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:16:02.6629764+03:00 0HNI1T80KD6HO:0000000D [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:16:02.6631221+03:00 0HNI1T80KD6HO:0000000D [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.1807ms (74253ad3)
+2025-12-23T09:16:02.7784918+03:00 0HNI1T80KD6HQ:0000000B [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 116.1088ms (74253ad3)
+2025-12-23T09:16:08.0549943+03:00 0HNI1T80KD6HQ:0000000C [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - null null (d509f86a)
+2025-12-23T09:16:08.0579401+03:00 0HNI1T80KD6HQ:0000000C [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:16:08.0584943+03:00 0HNI1T80KD6HQ:0000000C [INF] Route matched with "{action = \"Statistics\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Statistics()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:16:08.1011106+03:00 0HNI1T80KD6HQ:0000000C [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:16:08.1116714+03:00 0HNI1T80KD6HQ:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:16:08.1217492+03:00 0HNI1T80KD6HQ:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:16:08.1305565+03:00 0HNI1T80KD6HQ:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:16:08.1312211+03:00 0HNI1T80KD6HQ:0000000C [INF] Executing ViewResult, running view "Statistics". (c83d0e25)
+2025-12-23T09:16:08.1319452+03:00 0HNI1T80KD6HQ:0000000C [INF] Executed ViewResult - view "Statistics" executed in 0.7374ms. (f66409e9)
+2025-12-23T09:16:08.1322061+03:00 0HNI1T80KD6HQ:0000000C [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)" in 73.6724ms (afa2e885)
+2025-12-23T09:16:08.1322550+03:00 0HNI1T80KD6HQ:0000000C [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:16:08.1328195+03:00 0HNI1T80KD6HQ:0000000C [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - 200 null "text/html; charset=utf-8" 77.8939ms (74253ad3)
+2025-12-23T09:16:08.1857952+03:00 0HNI1T80KD6HQ:0000000D [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:16:08.1888167+03:00 0HNI1T80KD6HO:0000000E [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:16:08.1889534+03:00 0HNI1T80KD6HO:0000000E [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.1695ms (74253ad3)
+2025-12-23T09:16:08.2005070+03:00 0HNI1T80KD6HQ:0000000D [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 14.7388ms (74253ad3)
+2025-12-23T09:16:13.3635614+03:00 0HNI1T80KD6HQ:0000000E [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - null null (d509f86a)
+2025-12-23T09:16:13.3667469+03:00 0HNI1T80KD6HQ:0000000E [INF] Executing endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:16:13.3668628+03:00 0HNI1T80KD6HQ:0000000E [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MvcDatabaseApp.Controllers.HomeController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:16:13.3670143+03:00 0HNI1T80KD6HQ:0000000E [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:16:13.3682335+03:00 0HNI1T80KD6HQ:0000000E [INF] Executed ViewResult - view "Index" executed in 1.2121ms. (f66409e9)
+2025-12-23T09:16:13.3683007+03:00 0HNI1T80KD6HQ:0000000E [INF] Executed action "MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)" in 1.4171ms (afa2e885)
+2025-12-23T09:16:13.3683224+03:00 0HNI1T80KD6HQ:0000000E [INF] Executed endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:16:13.3684144+03:00 0HNI1T80KD6HQ:0000000E [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - 200 null "text/html; charset=utf-8" 4.8918ms (74253ad3)
+2025-12-23T09:16:13.4224557+03:00 0HNI1T80KD6HQ:0000000F [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:16:13.4232579+03:00 0HNI1T80KD6HQ:0000000F [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.7915ms (74253ad3)
+2025-12-23T09:16:13.4235254+03:00 0HNI1T80KD6HO:0000000F [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:16:13.4830702+03:00 0HNI1T80KD6HO:0000000F [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 59.4848ms (74253ad3)
+2025-12-23T09:16:59.7463875+03:00 0HNI1T80KD6HR:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-23T09:16:59.7675940+03:00 0HNI1T80KD6HR:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:16:59.7680159+03:00 0HNI1T80KD6HR:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:16:59.7863336+03:00 0HNI1T80KD6HR:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:16:59.7951667+03:00 0HNI1T80KD6HR:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:16:59.8138539+03:00 0HNI1T80KD6HR:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:16:59.8177447+03:00 0HNI1T80KD6HR:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:16:59.8188244+03:00 0HNI1T80KD6HR:00000001 [INF] Executed ViewResult - view "Index" executed in 1.1321ms. (f66409e9)
+2025-12-23T09:16:59.8189160+03:00 0HNI1T80KD6HR:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 50.8502ms (afa2e885)
+2025-12-23T09:16:59.8189556+03:00 0HNI1T80KD6HR:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:16:59.8191862+03:00 0HNI1T80KD6HR:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 72.8489ms (74253ad3)
+2025-12-23T09:16:59.8674652+03:00 0HNI1T80KD6HR:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:16:59.8677473+03:00 0HNI1T80KD6HR:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.3336ms (74253ad3)
+2025-12-23T09:16:59.8677651+03:00 0HNI1T80KD6HS:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:16:59.8683084+03:00 0HNI1T80KD6HS:00000001 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:16:59.8684167+03:00 0HNI1T80KD6HS:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 0.67ms (74253ad3)
+2025-12-23T09:16:59.8733135+03:00 0HNI1T80KD6HT:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:16:59.9593157+03:00 0HNI1T80KD6HT:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 85.999ms (74253ad3)
+2025-12-23T09:17:05.4933653+03:00 0HNI1T80KD6HT:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Create""" - null null (d509f86a)
+2025-12-23T09:17:05.4959516+03:00 0HNI1T80KD6HT:00000002 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:17:05.4960798+03:00 0HNI1T80KD6HT:00000002 [INF] Route matched with "{action = \"Create\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:17:05.5227124+03:00 0HNI1T80KD6HT:00000002 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-23T09:17:05.5234894+03:00 0HNI1T80KD6HT:00000002 [INF] Executing ViewResult, running view "Create". (c83d0e25)
+2025-12-23T09:17:05.5302224+03:00 0HNI1T80KD6HT:00000002 [INF] Executed ViewResult - view "Create" executed in 6.7608ms. (f66409e9)
+2025-12-23T09:17:05.5303094+03:00 0HNI1T80KD6HT:00000002 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)" in 34.2063ms (afa2e885)
+2025-12-23T09:17:05.5303584+03:00 0HNI1T80KD6HT:00000002 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Create (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:17:05.5307154+03:00 0HNI1T80KD6HT:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Create""" - 200 null "text/html; charset=utf-8" 37.3107ms (74253ad3)
+2025-12-23T09:17:05.5721767+03:00 0HNI1T80KD6HT:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-23T09:17:05.5839254+03:00 0HNI1T80KD6HS:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:17:05.5840620+03:00 0HNI1T80KD6HS:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.1567ms (74253ad3)
+2025-12-23T09:17:05.6235107+03:00 0HNI1T80KD6HT:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 51.3715ms (74253ad3)
+2025-12-23T09:17:08.8492244+03:00 0HNI1T80KD6HT:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:17:08.8495226+03:00 0HNI1T80KD6HT:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.348ms (74253ad3)
+2025-12-23T09:17:10.2817933+03:00 0HNI1T80KD6HT:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-23T09:17:10.2819870+03:00 0HNI1T80KD6HT:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.6021ms (74253ad3)
+2025-12-23T09:19:11.6902512+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-23T09:19:11.7603131+03:00  [INF] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-23T09:19:11.7666300+03:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-23T09:19:11.7679620+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-23T09:19:11.8084282+03:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2025-12-23T09:19:11.8430354+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-12-23T09:19:11.8801730+03:00  [INF] User profile is available. Using '"C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2025-12-23T09:19:12.0604625+03:00  [INF] Now listening on: "http://localhost:5070" (d826f4b8)
+2025-12-23T09:19:12.0683968+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-23T09:19:12.0691148+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-23T09:19:12.0692086+03:00  [INF] Content root path: "C:\DotnetProjects\MvcDatabaseApp" (cc26f24e)
+2025-12-23T09:19:22.9751498+03:00 0HNI1TCRF1UQN:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Index""" - null null (d509f86a)
+2025-12-23T09:19:23.1470548+03:00 0HNI1TCRF1UQN:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2025-12-23T09:19:23.2424122+03:00 0HNI1TCRF1UQN:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:19:23.3043620+03:00 0HNI1TCRF1UQN:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:19:25.0338445+03:00 0HNI1TCRF1UQN:00000001 [INF] Executed DbCommand ("94"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:19:25.7901766+03:00 0HNI1TCRF1UQN:00000001 [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:19:25.8234180+03:00 0HNI1TCRF1UQN:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:19:25.9423160+03:00 0HNI1TCRF1UQN:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:19:26.6080758+03:00 0HNI1TCRF1UQN:00000001 [INF] Executed ViewResult - view "Index" executed in 674.7336ms. (f66409e9)
+2025-12-23T09:19:26.6148768+03:00 0HNI1TCRF1UQN:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 3307.5617ms (afa2e885)
+2025-12-23T09:19:26.6335866+03:00 0HNI1TCRF1UQN:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:19:26.8073225+03:00 0HNI1TCRF1UQN:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Index""" - 200 null "text/html; charset=utf-8" 3833.519ms (74253ad3)
+2025-12-23T09:19:26.8331493+03:00 0HNI1TCRF1UQN:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-23T09:19:26.9872224+03:00 0HNI1TCRF1UQN:00000002 [INF] The file "/MvcDatabaseApp.styles.css" was not modified (f1f8d725)
+2025-12-23T09:19:27.0000762+03:00 0HNI1TCRF1UQN:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 304 null "text/css" 168.3136ms (74253ad3)
+2025-12-23T09:19:44.2953430+03:00 0HNI1TCRF1UQP:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/index.html""" - null null (d509f86a)
+2025-12-23T09:19:44.5286993+03:00 0HNI1TCRF1UQP:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 233.3366ms (74253ad3)
+2025-12-23T09:19:44.5757078+03:00 0HNI1TCRF1UQO:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/index.css""" - null null (d509f86a)
+2025-12-23T09:19:44.5755951+03:00 0HNI1TCRF1UQP:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/swagger-ui.css""" - null null (d509f86a)
+2025-12-23T09:19:44.5789581+03:00 0HNI1TCRF1UQQ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/swagger-ui-bundle.js""" - null null (d509f86a)
+2025-12-23T09:19:44.5824568+03:00 0HNI1TCRF1UQR:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/swagger-ui-standalone-preset.js""" - null null (d509f86a)
+2025-12-23T09:19:44.5827386+03:00 0HNI1TCRF1UQS:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/index.js""" - null null (d509f86a)
+2025-12-23T09:19:44.5846079+03:00 0HNI1TCRF1UQS:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 1.8143ms (74253ad3)
+2025-12-23T09:19:44.5942795+03:00 0HNI1TCRF1UQO:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/index.css""" - 200 152 "text/css" 18.5286ms (74253ad3)
+2025-12-23T09:19:44.5950220+03:00 0HNI1TCRF1UQP:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/swagger-ui.css""" - 200 23649 "text/css" 19.3501ms (74253ad3)
+2025-12-23T09:19:44.6175646+03:00 0HNI1TCRF1UQR:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/swagger-ui-standalone-preset.js""" - 200 77354 "text/javascript" 35.0841ms (74253ad3)
+2025-12-23T09:19:44.6518021+03:00 0HNI1TCRF1UQQ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/swagger-ui-bundle.js""" - 200 424834 "text/javascript" 72.7736ms (74253ad3)
+2025-12-23T09:19:45.2857065+03:00 0HNI1TCRF1UQQ:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/v1/swagger.json""" - null null (d509f86a)
+2025-12-23T09:19:45.7086564+03:00 0HNI1TCRF1UQQ:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 422.9429ms (74253ad3)
+2025-12-23T09:20:10.8544219+03:00 0HNI1TCRF1UQT:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/api/ProductApis""" - null null (d509f86a)
+2025-12-23T09:20:10.8599083+03:00 0HNI1TCRF1UQT:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductApisController.GetAll (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:20:10.8770827+03:00 0HNI1TCRF1UQT:00000001 [INF] Route matched with "{action = \"GetAll\", controller = \"ProductApis\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll()" on controller "MvcDatabaseApp.Controllers.ProductApisController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:20:11.0673797+03:00 0HNI1TCRF1UQT:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:20:11.0825969+03:00 0HNI1TCRF1UQT:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[MvcDatabaseApp.Models.ViewModels.ProductViewModel, MvcDatabaseApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2025-12-23T09:20:11.1242879+03:00 0HNI1TCRF1UQT:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductApisController.GetAll (MvcDatabaseApp)" in 247.0828ms (afa2e885)
+2025-12-23T09:20:11.1251728+03:00 0HNI1TCRF1UQT:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductApisController.GetAll (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:20:11.1260678+03:00 0HNI1TCRF1UQT:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/api/ProductApis""" - 200 null "application/json; charset=utf-8" 271.7183ms (74253ad3)
+2025-12-23T09:21:25.0721270+03:00 0HNI1TCRF1UQU:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""?searchTerm=clothes" - null null (d509f86a)
+2025-12-23T09:21:25.0739560+03:00 0HNI1TCRF1UQU:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-23T09:21:25.0954521+03:00 0HNI1TCRF1UQU:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-23T09:21:25.2470958+03:00 0HNI1TCRF1UQU:00000001 [INF] Executed DbCommand ("49"ms) [Parameters=["@__searchTerm_0_rewritten='?' (Size = 100), @__searchTerm_0_rewritten_1='?' (Size = 500), @__searchTerm_0_rewritten_2='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit) AND (LOWER([p].[Name]) LIKE @__searchTerm_0_rewritten ESCAPE N'\' OR LOWER([p].[Description]) LIKE @__searchTerm_0_rewritten_1 ESCAPE N'\' OR LOWER([p].[Category]) LIKE @__searchTerm_0_rewritten_2 ESCAPE N'\')
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:21:25.2537666+03:00 0HNI1TCRF1UQU:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-23T09:21:25.2612010+03:00 0HNI1TCRF1UQU:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-23T09:21:25.2628450+03:00 0HNI1TCRF1UQU:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-23T09:21:25.2729119+03:00 0HNI1TCRF1UQU:00000001 [INF] Executed ViewResult - view "Index" executed in 10.7067ms. (f66409e9)
+2025-12-23T09:21:25.2730768+03:00 0HNI1TCRF1UQU:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 177.5563ms (afa2e885)
+2025-12-23T09:21:25.2731176+03:00 0HNI1TCRF1UQU:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-23T09:21:25.2733059+03:00 0HNI1TCRF1UQU:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""?searchTerm=clothes" - 200 null "text/html; charset=utf-8" 201.206ms (74253ad3)

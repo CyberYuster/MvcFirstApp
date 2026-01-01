@@ -1,0 +1,336 @@
+﻿@model IEnumerable<MvcDatabaseApp.Models.ViewModels.ProductViewModel>
+@{
+    // Layout = "_Layout";
+    ViewData["Title"] = "Products";
+
+    // Safely cast TempData to string
+    string? successMessage = TempData["SuccessMessage"] as string;
+    string? errorMessage = TempData["ErrorMessage"] as string;
+
+    // Safely cast ViewBag values to expected types
+    string? searchTerm = ViewBag.SearchTerm as string;
+    int totalProducts = ViewBag.TotalProducts ?? 0;
+    decimal totalValue = ViewBag.TotalValue ?? 0m;
+
+}
+
+<div class="container pt-2">
+    <!-- Success Message -->
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @successMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <!-- Error Message -->
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @errorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h1>Products</h1>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-action="Create" class="btn btn-primary me-2">
+                <i class="bi bi-plus-circle"></i> Create New
+            </a>
+            <a asp-action="Statistics" class="btn btn-info">
+                <i class="bi bi-graph-up"></i> Statistics
+            </a>
+        </div>
+    </div>
+
+    <!-- Search Box -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="get" asp-action="Index">
+                <div class="input-group">
+                    <input type="text" class="form-control"
+                           name="searchTerm"
+                           value="@searchTerm"
+                           placeholder="Search products...">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="bi bi-search"></i> Search
+                    </button>
+                    @if (!string.IsNullOrEmpty(searchTerm))
+                    {
+                        <a asp-action="Index" class="btn btn-outline-danger">
+                            <i class="bi bi-x-circle"></i> Clear
+                        </a>
+                    }
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Statistics Cards -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Active Products</h5>
+                    <p class="card-text display-6">@totalProducts</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Total Inventory Value</h5>
+                    <p class="card-text display-6">$@totalValue.ToString("N2")</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Table -->
+    <div class="card">
+        <div class="card-body">
+            @if (Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@item.Name</strong>
+                                        @if (!string.IsNullOrEmpty(item.Description))
+                                        {
+                                            <br />
+                                            <small class="text-muted">@item.Description</small>
+                                        }
+                                    </td>
+                                    <td>@item.Category</td>
+                                    <td>$@item.Price.ToString()</td>
+                                    <td>
+                                        @if (item.isActive)
+                                        {
+                                            <span class="badge bg-success">Active</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">Inactive</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <div class="btn-group" role="group">
+                                            <a asp-action="Details" asp-route-id="@item.Id"
+                                               class="btn btn-info">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                            <a asp-action="Edit" asp-route-id="@item.Id"
+                                               class="btn btn-warning">
+                                                <i class="bi bi-pencil"></i>
+                                            </a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id"
+                                               class="btn btn-sm btn-danger">
+                                                <i class="bi bi-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle"></i> No products found.
+                    @if (!string.IsNullOrEmpty(searchTerm))
+                    {
+                        <span>Try a different search term.</span>
+                    }
+                    else
+                    {
+                        <span>
+                            <a asp-action="Create" class="alert-link">Create your first product</a>.
+                        </span>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@* @model IEnumerable<MvcDatabaseApp.Models.ViewModels.ProductViewModel>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="container">
+    <!-- Success/Error Messages -->
+@if (TempData["SuccessMessage"] != null)
+{
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+}
+    @{
+        string? errorMessage = TempData["ErrorMessage"] as string;
+    }
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @errorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h1>Products</h1>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-action="Create" class="btn btn-primary me-2">
+                <i class="bi bi-plus-circle"></i> Create New
+            </a>
+            <a asp-action="Statistics" class="btn btn-info">
+                <i class="bi bi-graph-up"></i> Statistics
+            </a>
+        </div>
+</div>
+<!-- Search Box -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="get" asp-action="Index">
+                <div class="input-group">
+                    <input type="text" class="form-control" 
+                           name="searchTerm" 
+                           value="@ViewBag.SearchTerm"
+                           placeholder="Search products...">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="bi bi-search"></i> Search
+                    </button>
+                    @if (!string.IsNullOrEmpty(ViewBag.SearchTerm))
+                    {
+                        <a asp-action="Index" class="btn btn-outline-danger">
+                            <i class="bi bi-x-circle"></i> Clear
+                        </a>
+                    }
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Statistics Card -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Active Products</h5>
+                    <p class="card-text display-6">@ViewBag.TotalProducts</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Total Inventory Value</h5>
+                    <p class="card-text display-6">$@ViewBag.TotalValue.ToString("N2")</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products Table -->
+    <div class="card">
+        <div class="card-body">
+            @if (Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@item.Name</strong>
+                                        @if (!string.IsNullOrEmpty(item.Description))
+                                        {
+                                            <br />
+                                            <small class="text-muted">@item.Description</small>
+                                        }
+                                    </td>
+                                    <td>@item.Category</td>
+                                    @* <td>$@item.Price.ToString("N2")</td> 
+                                    <td>$@item.Price.ToString()</td>
+                                    <td>
+                                        @if (item.isActive)
+                                        {
+                                            <span class="badge bg-success">Active</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger">Inactive</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <div class="btn-group" role="group">
+                                            <a asp-action="Details" asp-route-id="@item.Id" 
+                                               class="btn btn-sm btn-info">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                            <a asp-action="Edit" asp-route-id="@item.Id"
+                                               class="btn btn-sm btn-warning">
+                                                <i class="bi bi-pencil"></i>
+                                            </a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id"
+                                               class="btn btn-sm btn-danger">
+                                                <i class="bi bi-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+    }
+    </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle"></i> No products found.
+                    @if (!string.IsNullOrEmpty(ViewBag.SearchTerm))
+                    {
+                        <span>Try a different search term.</span>
+                    }
+                    else
+                    {
+                        <span>
+                            <a asp-action="Create" class="alert-link">Create your first product</a>.
+                        </span>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div> *@

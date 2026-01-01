@@ -1,0 +1,26 @@
+﻿@model MvcDatabaseApp.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+<h1>Details</h1>
+<table class="table table-striped">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+        <th>@Html.DisplayNameFor(model=>model.Price)</th>
+        <th>@Html.DisplayNameFor(model => model.Description)</th>
+        <th>@Html.DisplayNameFor(model => model.CreateDate)</th>
+
+    </tr>
+   
+<tr>
+    <td>@Html.DisplayFor(modelItem=>modelItem.Name)</td>
+        <td>@Html.DisplayFor(modelItem => modelItem.Price)</td>
+            <td>@Html.DisplayFor(modelItem => modelItem.Description)</td>
+        <td>@Html.DisplayFor(modelItem => modelItem.CreateDate)</td>
+</tr>
+  
+</table>
+<p>
+    <a asp-action="Index">BACK</a>
+</p>

@@ -1,0 +1,134 @@
+2025-12-31T22:20:38.6868340+03:00  [INF] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-31T22:20:38.8138513+03:00  [INF] Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-31T22:20:38.8290751+03:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2025-12-31T22:20:38.8346906+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2025-12-31T22:20:38.8879368+03:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2025-12-31T22:20:38.9374920+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-12-31T22:20:39.0118135+03:00  [INF] User profile is available. Using '"C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2025-12-31T22:20:39.8020675+03:00  [INF] Now listening on: "http://localhost:5070" (d826f4b8)
+2025-12-31T22:20:39.9831059+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-31T22:20:39.9913347+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-31T22:20:39.9980292+03:00  [INF] Content root path: "C:\DotnetProjects\MvcDatabaseApp" (cc26f24e)
+2025-12-31T22:20:53.6766389+03:00 0HNI8K6NHKRJK:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - null null (d509f86a)
+2025-12-31T22:20:55.1276076+03:00 0HNI8K6NHKRJK:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2025-12-31T22:20:55.1923891+03:00 0HNI8K6NHKRJK:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-31T22:20:55.3535031+03:00 0HNI8K6NHKRJK:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MvcDatabaseApp.Controllers.HomeController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-31T22:20:55.4477173+03:00 0HNI8K6NHKRJK:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-31T22:20:55.9959425+03:00 0HNI8K6NHKRJK:00000001 [INF] Executed ViewResult - view "Index" executed in 546.9076ms. (f66409e9)
+2025-12-31T22:20:55.9977201+03:00 0HNI8K6NHKRJK:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)" in 635.8865ms (afa2e885)
+2025-12-31T22:20:55.9978776+03:00 0HNI8K6NHKRJK:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.HomeController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-31T22:20:56.1218011+03:00 0HNI8K6NHKRJL:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/lib/bootstrap/dist/css/bootstrap.css""" - null null (d509f86a)
+2025-12-31T22:20:56.1246332+03:00 0HNI8K6NHKRJM:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - null null (d509f86a)
+2025-12-31T22:20:56.1255365+03:00 0HNI8K6NHKRJN:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null (d509f86a)
+2025-12-31T22:20:56.1321433+03:00 0HNI8K6NHKRJK:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/""" - 200 null "text/html; charset=utf-8" 2600.6511ms (74253ad3)
+2025-12-31T22:20:56.1418338+03:00 0HNI8K6NHKRJO:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/css/productTemplate.css""?v=1dgiUAMJfpU4wOH9GcO6-sSfQgE5g183vv98pZKFDFs" - null null (d509f86a)
+2025-12-31T22:20:56.1810188+03:00 0HNI8K6NHKRJP:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-31T22:20:56.1870252+03:00 0HNI8K6NHKRJP:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 5.9321ms (74253ad3)
+2025-12-31T22:20:56.1942291+03:00 0HNI8K6NHKRJO:00000001 [INF] Sending file. Request path: '"/css/productTemplate.css"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\wwwroot\css\productTemplate.css"' (27b0a520)
+2025-12-31T22:20:56.1942776+03:00 0HNI8K6NHKRJN:00000001 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\wwwroot\css\site.css"' (27b0a520)
+2025-12-31T22:20:56.1942881+03:00 0HNI8K6NHKRJM:00000001 [INF] Sending file. Request path: '"/MvcDatabaseApp.styles.css"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\obj\Debug\net8.0\scopedcss\bundle\MvcDatabaseApp.styles.css"' (27b0a520)
+2025-12-31T22:20:56.2013289+03:00 0HNI8K6NHKRJM:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/MvcDatabaseApp.styles.css""?v=1vqiYR93Mli0xMX6zean3B8GJS1HK3KfdU_7IOe5GVE" - 200 1132 "text/css" 76.7472ms (74253ad3)
+2025-12-31T22:20:56.2016797+03:00 0HNI8K6NHKRJO:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/css/productTemplate.css""?v=1dgiUAMJfpU4wOH9GcO6-sSfQgE5g183vv98pZKFDFs" - 200 6224 "text/css" 59.8434ms (74253ad3)
+2025-12-31T22:20:56.2028287+03:00 0HNI8K6NHKRJQ:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-31T22:20:56.2037890+03:00 0HNI8K6NHKRJN:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 200 362 "text/css" 78.116ms (74253ad3)
+2025-12-31T22:20:56.2149853+03:00 0HNI8K6NHKRJP:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/lib/jquery/dist/jquery.min.js""" - null null (d509f86a)
+2025-12-31T22:20:56.2282414+03:00 0HNI8K6NHKRJO:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null (d509f86a)
+2025-12-31T22:20:56.2294912+03:00 0HNI8K6NHKRJN:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null (d509f86a)
+2025-12-31T22:20:56.2450137+03:00 0HNI8K6NHKRJN:00000002 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\wwwroot\js\site.js"' (27b0a520)
+2025-12-31T22:20:56.2453245+03:00 0HNI8K6NHKRJN:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 17.0697ms (74253ad3)
+2025-12-31T22:20:56.2520931+03:00 0HNI8K6NHKRJP:00000002 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\wwwroot\lib\jquery\dist\jquery.min.js"' (27b0a520)
+2025-12-31T22:20:56.2524492+03:00 0HNI8K6NHKRJP:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/lib/jquery/dist/jquery.min.js""" - 200 89501 "text/javascript" 37.4929ms (74253ad3)
+2025-12-31T22:20:56.2598225+03:00 0HNI8K6NHKRJO:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"' (27b0a520)
+2025-12-31T22:20:56.2600582+03:00 0HNI8K6NHKRJO:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 200 78468 "text/javascript" 32.4405ms (74253ad3)
+2025-12-31T22:20:56.2722700+03:00 0HNI8K6NHKRJL:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2025-12-31T22:20:56.2733728+03:00 0HNI8K6NHKRJL:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/lib/bootstrap/dist/css/bootstrap.css""" - 200 204136 "text/css" 151.3003ms (74253ad3)
+2025-12-31T22:20:56.4217922+03:00 0HNI8K6NHKRJQ:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 218.9705ms (74253ad3)
+2025-12-31T22:21:09.7537324+03:00 0HNI8K6NHKRJR:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/favicon.ico""" - null null (d509f86a)
+2025-12-31T22:21:09.9294327+03:00 0HNI8K6NHKRJR:00000001 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\DotnetProjects\MvcDatabaseApp\wwwroot\favicon.ico"' (27b0a520)
+2025-12-31T22:21:09.9298107+03:00 0HNI8K6NHKRJR:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/favicon.ico""" - 200 5430 "image/x-icon" 176.1824ms (74253ad3)
+2025-12-31T22:21:16.4098314+03:00 0HNI8K6NHKRJS:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-31T22:21:16.4349725+03:00 0HNI8K6NHKRJS:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-31T22:21:16.4695641+03:00 0HNI8K6NHKRJS:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-31T22:21:18.3642961+03:00 0HNI8K6NHKRJS:00000001 [INF] Executed DbCommand ("207"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-31T22:21:18.8351930+03:00 0HNI8K6NHKRJS:00000001 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-31T22:21:18.8747377+03:00 0HNI8K6NHKRJS:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-31T22:21:18.9450418+03:00 0HNI8K6NHKRJS:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-31T22:21:19.1221499+03:00 0HNI8K6NHKRJS:00000001 [INF] Executed ViewResult - view "Index" executed in 182.221ms. (f66409e9)
+2025-12-31T22:21:19.1242757+03:00 0HNI8K6NHKRJS:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 2654.5731ms (afa2e885)
+2025-12-31T22:21:19.1252395+03:00 0HNI8K6NHKRJS:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-31T22:21:19.1491834+03:00 0HNI8K6NHKRJS:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 2739.3925ms (74253ad3)
+2025-12-31T22:21:19.1891708+03:00 0HNI8K6NHKRJS:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-31T22:21:19.1894605+03:00 0HNI8K6NHKRJS:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 3.2753ms (74253ad3)
+2025-12-31T22:21:19.1959843+03:00 0HNI8K6NHKRJS:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-31T22:21:19.3295942+03:00 0HNI8K6NHKRJS:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 134.2426ms (74253ad3)
+2025-12-31T22:21:24.9598974+03:00 0HNI8K6NHKRJS:00000004 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - null null (d509f86a)
+2025-12-31T22:21:24.9783521+03:00 0HNI8K6NHKRJS:00000004 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (500cc934)
+2025-12-31T22:21:24.9935854+03:00 0HNI8K6NHKRJS:00000004 [INF] Route matched with "{action = \"Statistics\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Statistics()" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-31T22:21:25.2072490+03:00 0HNI8K6NHKRJS:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-31T22:21:25.2233870+03:00 0HNI8K6NHKRJS:00000004 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-31T22:21:25.2474808+03:00 0HNI8K6NHKRJS:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-31T22:21:25.2647307+03:00 0HNI8K6NHKRJS:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]" (0723d8ff)
+2025-12-31T22:21:25.2856810+03:00 0HNI8K6NHKRJS:00000004 [INF] Executing ViewResult, running view "Statistics". (c83d0e25)
+2025-12-31T22:21:25.4342774+03:00 0HNI8K6NHKRJS:00000004 [INF] Executed ViewResult - view "Statistics" executed in 157.7421ms. (f66409e9)
+2025-12-31T22:21:25.4357460+03:00 0HNI8K6NHKRJS:00000004 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)" in 442.0876ms (afa2e885)
+2025-12-31T22:21:25.4358100+03:00 0HNI8K6NHKRJS:00000004 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Statistics (MvcDatabaseApp)"' (99874f2b)
+2025-12-31T22:21:25.4364212+03:00 0HNI8K6NHKRJS:00000004 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Statistics""" - 200 null "text/html; charset=utf-8" 476.7371ms (74253ad3)
+2025-12-31T22:21:25.6825511+03:00 0HNI8K6NHKRJS:00000005 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-31T22:21:25.6827837+03:00 0HNI8K6NHKRJS:00000005 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.334ms (74253ad3)
+2025-12-31T22:21:25.6829975+03:00 0HNI8K6NHKRJT:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-31T22:21:25.7912290+03:00 0HNI8K6NHKRJT:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 108.2228ms (74253ad3)
+2025-12-31T22:21:31.8520097+03:00 0HNI8K6NHKRJU:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - null null (d509f86a)
+2025-12-31T22:21:31.8662981+03:00 0HNI8K6NHKRJU:00000001 [INF] Executing endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (500cc934)
+2025-12-31T22:21:31.8668791+03:00 0HNI8K6NHKRJU:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Products\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String)" on controller "MvcDatabaseApp.Controllers.ProductsController" ("MvcDatabaseApp"). (122b2fdf)
+2025-12-31T22:21:31.9182512+03:00 0HNI8K6NHKRJU:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-31T22:21:31.9333244+03:00 0HNI8K6NHKRJU:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)" (0723d8ff)
+2025-12-31T22:21:31.9568670+03:00 0HNI8K6NHKRJU:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Category], [p].[CreateDate], [p].[Description], [p].[LastModified], [p].[Name], [p].[Price], [p].[isActive]
+FROM [Products] AS [p]
+WHERE [p].[isActive] = CAST(1 AS bit)
+ORDER BY [p].[Name]" (0723d8ff)
+2025-12-31T22:21:31.9578858+03:00 0HNI8K6NHKRJU:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2025-12-31T22:21:31.9675366+03:00 0HNI8K6NHKRJU:00000001 [INF] Executed ViewResult - view "Index" executed in 9.7039ms. (f66409e9)
+2025-12-31T22:21:31.9689711+03:00 0HNI8K6NHKRJU:00000001 [INF] Executed action "MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)" in 101.3349ms (afa2e885)
+2025-12-31T22:21:31.9690328+03:00 0HNI8K6NHKRJU:00000001 [INF] Executed endpoint '"MvcDatabaseApp.Controllers.ProductsController.Index (MvcDatabaseApp)"' (99874f2b)
+2025-12-31T22:21:31.9695153+03:00 0HNI8K6NHKRJU:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/Products/Search""" - 200 null "text/html; charset=utf-8" 117.7497ms (74253ad3)
+2025-12-31T22:21:32.0233559+03:00 0HNI8K6NHKRJU:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - null null (d509f86a)
+2025-12-31T22:21:32.0237467+03:00 0HNI8K6NHKRJU:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_framework/aspnetcore-browser-refresh.js""" - 200 16513 "application/javascript; charset=utf-8" 0.4672ms (74253ad3)
+2025-12-31T22:21:32.0421709+03:00 0HNI8K6NHKRJU:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - null null (d509f86a)
+2025-12-31T22:21:32.2156619+03:00 0HNI8K6NHKRJU:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5070""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 173.526ms (74253ad3)
